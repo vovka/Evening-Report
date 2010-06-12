@@ -1,0 +1,23 @@
+* Evening Report bash script
+
+Этот скрипт создаёт скриншот. Изначальный формат изображения xwd. Затем конвертируется в png. 
+
+Чтобы получить набор скриншотов за день, можно добавить соответствующую задачу в crontab, например: 
+
+  * * * * * /path/to/scriptdir/screenshooter.sh > /path/to/scriptdir/log/output.log 2>&1
+
+Вот и все инструкции. Да, это просто:) Желаю приятной работы. 
+
+
+
+========== ========== ========== ========== ========== ========== ========== ========== 
+
+
+
+This script creates a screenshot. Initial image format is xwd. Then it converted to png. 
+
+To get a daily screenshots collection you may to add appropriate task to crontab, e.g: 
+
+  * * * * * /path/to/scriptdir/screenshooter.sh > /path/to/scriptdir/log/output.log 2>&1
+
+That's all instruction. Yes, it's really easy:) Enjoy. 
